@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #444;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .app {
+    margin-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  /* Task List Styles */
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .task:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-details {
+    flex: 1;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 10px;
+  }
+/* Save and Cancel Buttons */
+button.save,
+button.cancel {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 120px;
+  text-align: center;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button.save {
+  background-color:#007bff;
+  color: white;
+  margin-top: 20px;
+}
+button.save:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+button.save:active {
+  transform: scale(0.95); /* Pressed effect */
+}
+
+button.cancel {
+  background-color: #dc3545; 
+  color: white;
+  margin-top: 20px; 
+}
+
+button.cancel:hover {
+  background-color: #5a6268; 
+  transform: scale(1.05); 
+}
+
+button.cancel:active {
+  transform: scale(0.95); 
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 15px; 
+  margin-top: 20px;
+}
+
+.add-task-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-task-button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+  }
+  
+  .add-task-button:active {
+    transform: scale(0.95); 
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  button.edit {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
